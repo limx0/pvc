@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pvc"
+version = "0.1.0"
+description = ""
+authors = ["Bradley McElroy <bradley.mcelroy@live.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dvc = "^2.9.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
